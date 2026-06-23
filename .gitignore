@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / local configs
+.env
+*.key
+*.pem
+config_local.*
+
+# Data / clinical files
+data/
+raw/
+dataset/
+datasets/
+private/
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+
+# Text result outputs
+*.txt
+
+# Outputs / results
+outputs/
+results/
+logs/
+figures/
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Figure outputs
+figs/
+figures/
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
